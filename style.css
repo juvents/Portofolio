@@ -1,8 +1,8 @@
-body{
+body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to bottom, #141E30, #243B55);
-    color: white;
+    background: linear-gradient(to bottom, #0e172c, #1b263b);
+    color: #d9d9d9;
     transition: all 0.3s ease;
 }
 
@@ -13,38 +13,40 @@ header, section {
 
 header h1 {
     font-size: 2.5rem;
+    color: #69a7ff;
 }
 
-.highlight{
-    color: #00ffc6;
+.highlight {
+    color: #69a7ff;
 }
 
 button {
     padding: 0.5rem 1rem;
     border: none;
-    background: #00ffc6;
-    color: #141E30;
+    background: #69a7ff;
+    color: #0e172c;
     font-size: 1rem;
     cursor: pointer;
     border-radius: 5px;
-    transition: background 0.3s;
+    transition: background 0.3s, transform 0.3s;
 }
 
 button:hover {
-    background: #00b8a9;
+    background: #527bbf;
+    transform: scale(1.05);
 }
 
 /* skill section */
 #skills {
     text-align: center;
     padding: 2rem 1rem;
-    background: linear-gradient(to bottom, #243B55, #141E30);
-    color: white;
+    background: linear-gradient(to bottom, #1b263b, #0e172c);
+    color: #d9d9d9;
 }
 
 #skills h2 {
-    font: 2.5rem;
-    color: #00ffc6;
+    font-size: 2.5rem;
+    color: #69a7ff;
     margin-bottom: 2rem;
 }
 
@@ -55,11 +57,11 @@ button:hover {
     flex-wrap: wrap;
 }
 
-.skill{
+.skill {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #1c2833;
+    background: #22304d;
     padding: 1.5rem;
     border-radius: 10px;
     width: 150px;
@@ -70,32 +72,32 @@ button:hover {
 
 .skill i {
     font-size: 3rem;
-    color: #00ffc6;
+    color: #69a7ff;
     margin-bottom: 1rem;
 }
 
 .skill p {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #ffffff;
+    color: #d9d9d9;
 }
 
 .skill:hover {
     transform: scale(1.1);
-    background: #243B55;
+    background: #2a3a5a;
 }
 
 /* portfolio section */
 #portfolio {
     padding: 4rem 1.5rem;
     text-align: center;
-    background: linear-gradient(to bottom, #141E30, #243B55);
-    color: white;
+    background: linear-gradient(to bottom, #0e172c, #1b263b);
+    color: #d9d9d9;
 }
 
 #portfolio h2 {
     font-size: 2.5rem;
-    color: #00ffc6;
+    color: #69a7ff;
     margin-bottom: 2rem;
 }
 
@@ -107,7 +109,7 @@ button:hover {
 }
 
 .portfolio-item {
-    background: #1c2833;
+    background: #22304d;
     overflow: hidden;
     padding: 1.5rem;
     border-radius: 10px;
@@ -118,8 +120,8 @@ button:hover {
 }
 
 .portfolio-item:hover {
-    transform: scale(1.30);
-    box-shadow: 0 8px 16px rgba(0, 255, 198, 0.4);
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(105, 167, 255, 0.4);
 }
 
 .portfolio-image img {
@@ -130,21 +132,21 @@ button:hover {
 
 .portfolio-content {
     padding: 1rem;
-    color: white;
+    color: #d9d9d9;
 }
 
 .portfolio-container p {
     font-size: 1rem;
     margin-bottom: 1rem;
     line-height: 1.5;
-    color: #d1d5db;
+    color: #b0b8c2;
 }
 
-.portfolio-content .btn{
+.portfolio-content .btn {
     display: inline-block;
     padding: 0.6rem 1.2rem;
-    background: #00ffc6;
-    color: #141E30;
+    background: #69a7ff;
+    color: #0e172c;
     font-weight: bold;
     border-radius: 5px;
     text-decoration: none;
@@ -152,24 +154,24 @@ button:hover {
 }
 
 .portfolio-content .btn:hover {
-    background: #00b8a9;
+    background: #527bbf;
 }
 
 /* contact section */
 #contact {
-    background: linear-gradient(to bottom, #243B55, #141E30);
+    background: linear-gradient(to bottom, #1b263b, #0e172c);
     padding: 3rem 1.5rem;
     text-align: center;
     border-radius: 10px;
     margin: 2rem auto;
     max-width: 600px;
-    color: white;
+    color: #d9d9d9;
 }
 
 #contact h2 {
     margin-bottom: 1.5rem;
     font-size: 1.8rem;
-    color: #00ffc6;
+    color: #69a7ff;
 }
 
 #contact form {
@@ -190,8 +192,8 @@ button:hover {
     border: none;
     border-radius: 5px;
     font-size: 1rem;
-    background-color: #1c2833;
-    color: white;
+    background-color: #2a3a5a;
+    color: #d9d9d9;
     outline: none;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease-in-out;
@@ -199,18 +201,18 @@ button:hover {
 
 #contact input:focus, 
 #contact textarea:focus {
-    box-shadow: 0px 4px 8px rgba(0,255, 198, 0.5)
+    box-shadow: 0px 4px 8px rgba(105, 167, 255, 0.5);
 }
 
-#contact button:hover{
-    background: #00b8a9;
+#contact button:hover {
+    background: #527bbf;
     transform: scale(1.05);
 }
 
 /* footer */
 footer {
-    background: #141E30;
-    color: white;
+    background: #0e172c;
+    color: #d9d9d9;
     padding: 1rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -228,13 +230,13 @@ footer .social-icons {
 }
 
 footer .social-icons a {
-    color: #00ffc6;
+    color: #69a7ff;
     font-size: 1.5rem;
     transition: color 0.3s ease, transform 0.3s ease;
     text-decoration: none;
 }
 
-footer .social-icons a:hover{
-    color: #4000b8;
+footer .social-icons a:hover {
+    color: #527bbf;
     transform: scale(1.2);
 }

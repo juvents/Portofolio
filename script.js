@@ -1,9 +1,18 @@
-const toogle = document.gotElemenById('theme.toggle');
-let isdarkmode = true
+// javascript DOH
 
-toogle.addvenlistener('click', () => {
-    document.body.style.background = isdarkmode
-    ? 'linear-gradient(to bottom, #243855, #141E30)'
-    : 'linear-gradient(to bottom, #2141130, #243855)';
-    isdarkmode = isdarkmode;
+const toggle = document.getElementById('theme-toggle');
+let isDarkMode = true;
+
+toggle.addEventListener('click', () => {
+    document.body.style.background = isDarkMode
+    ? 'linear-gradient(to bottom, #243B55, #141E30)'
+    : 'linear-gradient(to bottom, #141E30, #243B55)';
 });
+
+const dynamiccText = document.getElementById('dynamic-text');
+const textArray = ['Fullstack Developer', 'Web Developer'];
+let textIndex = 0;
+
+function updateText(){
+    dynamiccText.te
+}
